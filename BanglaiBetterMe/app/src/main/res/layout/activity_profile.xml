@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile"
+    android:orientation="vertical"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:padding="20dp"
+    android:background="#fece2f"
+    >
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/profile_icon"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/profilename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ismail Hossain"
+        android:textSize="30sp"
+        android:layout_toRightOf="@+id/profile_image"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:includeFontPadding="false"
+        />
+    <TextView
+        android:id="@+id/profileEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/profile_image"
+        android:layout_below="@+id/profilename"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:includeFontPadding="false"
+        />
+
+</RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="-100dp"
+        >
+<com.google.android.material.card.MaterialCardView
+    android:layout_width="80dp"
+    android:layout_height="125dp"
+    android:layout_weight="1"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="#fece2f"
+    app:cardElevation="10dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/bmi"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/lastBMIprofile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="বি এম আই"
+            android:layout_below="@id/lastBMIprofile"
+            android:textSize="15sp"
+            android:layout_centerInParent="true"/>
+
+
+
+    </RelativeLayout>
+
+
+</com.google.android.material.card.MaterialCardView>
+
+
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="80dp"
+            android:layout_height="125dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            app:cardBackgroundColor="#fece2f"
+            app:cardElevation="10dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp">
+
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/bmr"
+                    android:layout_centerHorizontal="true"/>
+                <TextView
+                    android:id="@+id/lastBMRprofile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_centerInParent="true"/>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="বি এম আর ক্যালোরি/দিন"
+                    android:layout_below="@id/lastBMRprofile"
+                    android:textSize="15sp"
+                    android:layout_centerInParent="true"/>
+
+
+
+            </RelativeLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:background="@drawable/background"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="বয়স :"
+
+            android:textSize="25sp"
+
+
+            />
+
+        <TextView
+            android:id="@+id/profileAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="25dp"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ব্যায়াম সম্পূর্ন হয়েছে : "
+            android:textSize="25sp"
+
+            />
+
+        <TextView
+            android:id="@+id/profileWorkoutDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dp"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="মোট ক্যালরি বার্ন হয়েছে : "
+            android:textSize="25sp"
+
+            />
+
+        <TextView
+            android:id="@+id/profileCalorieBurn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dp"
+            android:textSize="25sp" />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

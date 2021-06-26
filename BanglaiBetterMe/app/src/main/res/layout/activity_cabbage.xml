@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_dashboard"
+    android:padding="20dp"
+    tools:context=".Cabbage">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/cabbage"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="বাঁধাকপি
+"
+            android:paddingBottom="10dp"
+            android:textSize="40sp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="সুবিধাঃ"
+            android:textSize="30sp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="১) ফ্রেশ ফুলকপি ভিটামিন সি এর ভালো উৎস । \n২) এতে আছে ভালো পরিমানে অনেক গুরুত্বপূর্ন ভিটামিন বি-কমপ্লেক্স গ্রুপ এর ফোলেটস, প্যান্টোথেনিক এসিড(ভিটামিন বি৫), পাইরিডক্সিন(ভিটামিন বি৬),থিয়ামিন(ভিটামিন বি১), নিয়াসিন(বি৩) এছাড়াও অন্যান্য ভিটামিন।\n৩) গর্ভাবস্থা তে খাওয়া যায়।\n৪)ফ্রি র‌্যাডিকালগুলি থেকে অক্সিডেটিভ স্ট্রেস হ্রাস করে।"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="অসুবিধাঃ"
+            android:textSize="30sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="১)এতে পিউরিন থাকে। পিউরিনের আধিক্য সংবেদনশীল ব্যক্তিদের মধ্যে গাউট অ্যাটাকের সূত্রপাত করে এবং কিডনিতে পাথর তৈরি করতে পারে।\n২)এটি হজম অযোগ্য কার্বোহাইড্রেট ধারণ করে যা হজম সিস্টেমে গ্যাস এবং ফোলাভাব ঘটায়।"
+            android:paddingBottom="10dp"
+            android:textSize="15sp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="নিউট্রিশন তথ্য (প্রতি ১/২ কাপ-৬২ গ্রাম)"
+            android:textSize="22dp"
+            android:paddingBottom="10dp"
+            />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="20dp"
+            >
+
+
+            <TableRow android:background="#ECD50D" android:padding="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="নিউট্রিয়েন্ট"
+                    android:gravity="center"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ভ্যালু"
+                    android:gravity="center"
+                    />
+
+            </TableRow>
+            <TableRow android:background="#DAE8FC" android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="এনার্জি"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="১৫.১ ক্যালোরি"
+                    android:gravity="center"/>
+
+            </TableRow>
+            <TableRow android:background="#DAE8FC" android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="কার্বস"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="২.৭ মিগ্রা"
+                    android:gravity="center"/>
+
+            </TableRow>
+            <TableRow android:background="#DAE8FC" android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ফ্যাট"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="০.৩ গ্রা"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow android:background="#DAE8FC" android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="প্রোটিন"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="১.১ গ্রা"
+                    android:gravity="center"/>
+            </TableRow>
+
+
+            <TableRow android:background="#DAE8FC" android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ফাইবার"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="১.৪ গ্রা"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:background="#DAE8FC" android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ওমেগা ৩"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="১০৪ মিগ্রা"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:background="#DAE8FC" android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ওমেগা ৬"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="৩১ মিগ্রা"
+                    android:gravity="center"/>
+            </TableRow>
+        </TableLayout>
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="20dp"
+            >
+
+
+            <TableRow android:background="#ECD50D" android:padding="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ভিটামিন"
+                    android:gravity="center"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ভ্যালু"
+                    android:gravity="center"
+                    />
+
+            </TableRow>
+            <TableRow android:background="#DAE8FC" android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ভিটামিন এ"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="২.২২ মাইক্রো গ্রাম"
+                    android:gravity="center"/>
+
+            </TableRow>
+            <TableRow android:background="#DAE8FC" android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ভিটামিন সি"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="২৭.৫ মিগ্রা"
+                    android:gravity="center"/>
+
+            </TableRow>
+            <TableRow android:background="#DAE8FC" android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ভিটামিন কে"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="৮.৬ মাইক্রো গ্রাম"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow android:background="#DAE8FC" android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="রাইবো ফ্ল্যাভিন বি২"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="০.১ মিগ্রা"
+                    android:gravity="center"/>
+            </TableRow>
+
+
+            <TableRow android:background="#DAE8FC" android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="নিয়াসিন বি৩"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="০.৩ মিগ্রা"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:background="#DAE8FC" android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="প্যান্টোথেনিক এসিড বি৫"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="০.৩ মিগ্রা"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:background="#DAE8FC" android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ভিটামিন বি৬"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="০.১ মিগ্রা"
+                    android:gravity="center"/>
+            </TableRow>
+
+
+            <TableRow android:background="#DAE8FC" android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="কোলিন"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="২৪.২ মিগ্রা"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow android:background="#DAE8FC" android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ফোলেট"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="২৭.৩ মাইক্রো গ্রা"
+                    android:gravity="center"/>
+            </TableRow>
+        </TableLayout>
+
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="20dp"
+            >
+
+
+            <TableRow android:background="#ECD50D" android:padding="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="মিনারেলস"
+                    android:gravity="center"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ভ্যালু"
+                    android:gravity="center"
+                    />
+
+            </TableRow>
+            <TableRow android:background="#DAE8FC" android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ক্যালসিয়াম"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="৯.৯ মিগ্রা"
+                    android:gravity="center"/>
+
+            </TableRow>
+            <TableRow android:background="#DAE8FC" android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="আয়রন"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="০.৪ মিগ্রা"
+                    android:gravity="center"/>
+
+            </TableRow>
+            <TableRow android:background="#DAE8FC" android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ম্যাগ্নেসিয়াম"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="৫.৬ মিগ্রা"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow android:background="#DAE8FC" android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ম্যাংগানিজ"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="০.১ মিগ্রা"
+                    android:gravity="center"/>
+            </TableRow>
+
+
+            <TableRow android:background="#DAE8FC" android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ফসফরাস"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="১৯.৮ মিগ্রা"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:background="#DAE8FC" android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="পটাসিয়াম"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="৮৮ মিগ্রা"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:background="#DAE8FC" android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="সেলেনিয়াম"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="০.৪ মাইক্রো গ্রাম"
+                    android:gravity="center"/>
+            </TableRow>
+
+
+            <TableRow android:background="#DAE8FC" android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="সোডিয়াম"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="৯.৩ মিগ্রা"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow android:background="#DAE8FC" android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="জিংক"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="০.১ মিগ্রা"
+                    android:gravity="center"/>
+            </TableRow>
+        </TableLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

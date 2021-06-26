@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.banglaibetterme">
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".nuts.Coconuts"></activity>
+        <activity android:name=".nuts.Hijli_badam" />
+        <activity android:name=".nuts.ChinaBadam" />
+        <activity android:name=".nuts.KajuBadam" />
+        <activity android:name=".fruits.Mango" />
+        <activity android:name=".fruits.Lychee" />
+        <activity android:name=".fruits.JackFruit" />
+        <activity android:name=".fruits.Guava" />
+        <activity android:name=".fruits.Grape" />
+        <activity android:name=".fruits.Banana" />
+        <activity android:name=".fruits.Apple" />
+        <activity android:name="Fruits.Apple" />
+        <activity android:name=".Tomato" />
+        <activity android:name=".LadyFinger" />
+        <activity android:name=".Potato" />
+        <activity android:name=".Carrot" />
+        <activity android:name=".Cabbage" />
+        <activity android:name=".CauliFlower" />
+        <activity android:name=".ImmunityBoostingFoodsDashboard" />
+        <activity android:name=".MeatFishDashboard" />
+        <activity android:name=".NutsDashboard" />
+        <activity android:name=".FruitDashboard" />
+        <activity android:name=".VegetablesDashboard" />
+        <activity android:name=".Foods" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Cobra_stretch" />
+        <activity android:name=".Wide_arm_push_ups" />
+        <activity android:name=".Push_ups" />
+        <activity android:name=".Knee_push_ups" />
+        <activity android:name=".Incline_push_ups" />
+        <activity android:name=".JumpingJacks" />
+        <activity android:name=".Full_Body_plans_week" />
+        <activity android:name=".Workout_dashboard_female" />
+        <activity android:name=".Workout_gender" />
+        <activity android:name=".Workout_dashboard" />
+        <activity android:name=".Pedometer" />
+        <activity android:name=".bmr_female" />
+        <activity android:name=".bmr_male" />
+        <activity android:name=".bmr_male_female_select" />
+        <activity android:name=".DietBasicKnowledge" />
+        <activity android:name=".water_reminder" />
+        <activity android:name=".BMICalculator" />
+        <activity
+            android:name=".Dashboard"
+            android:theme="@style/Theme.MaterialComponents.Light.DarkActionBar" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".SignIn" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".ReminderBoard" />
+    </application>
+
+</manifest>

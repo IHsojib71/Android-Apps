@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "334914157771",
+    "firebase_url": "https://banglaibetterme.firebaseio.com",
+    "project_id": "banglaibetterme",
+    "storage_bucket": "banglaibetterme.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334914157771:android:2585f85479ba37f6dcef4e",
+        "android_client_info": {
+          "package_name": "com.example.banglaibetterme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334914157771-rhdoa3raqmn9ebfgu9sql3ijej0ovlrj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASzESPas7RiWMpXVJjCBqxc7KEDKoKe1g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334914157771-rhdoa3raqmn9ebfgu9sql3ijej0ovlrj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
